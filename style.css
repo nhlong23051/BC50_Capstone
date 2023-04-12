@@ -211,19 +211,27 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--white);
     width: 100%;
     box-shadow: 0 0 10px #404040;
-    padding: 10px 0;
+    padding: 22px 0;
 }
 
  #theme{
     color: var(--black);
     padding: 5px;
     cursor: pointer;
+    right: 10%;
+    top: 0;
+    line-height: 44px;
+    font-size: 30px;
 }
 
  #theme1{
     color: var(--black);
     padding: 5px;
     cursor: pointer;
+    right: 10%;
+    top: 0;
+    line-height: 44px;
+    font-size: 30px;
 }
 
 .dark{
