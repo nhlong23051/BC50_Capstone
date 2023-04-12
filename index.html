@@ -18,13 +18,12 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script src="./style.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body id="themeLife">
+<body >
     <!-- services -->
-    <section class="services py-5">
+    <section id="themeLife" class="Light" class="services py-5">
         <div class="services__title py-5 position-relative">
             <div class="container">
                 <div class="row align-items-center">
@@ -90,7 +89,7 @@
     </section>
 
 <!-- services block -->
-    <section class="services__block py-5">
+    <section id="services__block" class=" py-5 Light">
         <div class="container py-5">
             <div class="row ">
                 <div class="services__block__left col-lg-6 col-sm-12">
@@ -125,7 +124,7 @@
                     <img class=" border-radius img-fluid"
                         src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/image.jpg" width="100%"
                         alt="">
-                    <div class="position-absolute services__block__text responMD">
+                    <div class="position-absolute text-white services__block__text responMD">
                         <h1 class="imginfo__title"> 36+</h1>
                         <p>Years of experience</p>
                     </div>
@@ -135,7 +134,7 @@
     </section>
 
     <!-- index block -->
-    <section class="index__block py-4">
+    <section id="index__block" class=" py-4 Light">
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-12 col-sm-6 col-lg-4 index__item py-4 mt-md-4">
@@ -197,13 +196,13 @@
     </section>
     <br>
     <br>
-    <div id="theme" class="">
-        <button id="iconLight"  class="btn">
-        <i class="fa-solid fa-sun fa-3x" style="display: none;"></i>
+    <div id="navSwith" class="swithMode">
+        <div class="icon"  >
+            <i id="theme" class="fa-solid fa-moon fa-2x" ></i>
         </button>
-        <button id="iconDark" onclick="themeDark()" class="btn">
-        <i class="fa-solid fa-moon fa-3x"></i>
-        </button>
+        <div >
+            <i id="theme1" class="fa-solid fa-sun fa-2x" style="display: none;"></i>
+        </div>
     </div>
 
 
@@ -225,6 +224,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./style.js"></script>
+
 </body>
 
 </html>
